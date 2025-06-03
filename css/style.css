@@ -7,12 +7,12 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f3f0ea;
-    color: #333;
+    color: #bef7c0;
     line-height: 1.6;
 }
 
 header {
-    background-color: #6b4f4f;
+    background-color: #0bb45f;
     padding: 20px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #8d6e63;
+    background-color: #a7d8c9;
 }
 
 .container {
@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 h1, h2 {
     text-align: center;
-    color: #4e342e;
+    color: #79f3a8;
     margin-bottom: 20px;
 }
 
@@ -81,11 +81,11 @@ iframe {
 }
 
 a {
-    color: #6b4f4f;
+    color: #178b2a;
 }
 
 footer {
-    background-color: #4e342e;
+    background-color: #3d8f69;
     color: #fff;
     text-align: center;
     padding: 20px;
