@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f3f0ea;
+    background-color: #0ca4c6;
     color: #bef7c0;
     line-height: 1.6;
 }
@@ -15,7 +15,7 @@ header {
     background-color: #0bb45f;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px #0ca4c6;
 }
 
 header img {
@@ -33,7 +33,7 @@ nav ul {
 
 nav ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #c3dbda;
     font-weight: 600;
     padding: 8px 16px;
     transition: background 0.3s ease;
@@ -41,7 +41,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #a7d8c9;
+    background-color: #0ca4c6;
 }
 
 .container {
@@ -52,7 +52,7 @@ nav ul li a:hover {
 
 h1, h2 {
     text-align: center;
-    color: #79f3a8;
+    color: #fff;
     margin-bottom: 20px;
 }
 
@@ -70,22 +70,22 @@ img {
     display: block;
     margin: 20px auto;
     border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px #fff;
 }
 
 iframe {
     display: block;
     margin: 30px auto;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    box-shadow: 0 0 15px #fff;
 }
 
 a {
-    color: #178b2a;
+    color: #fff;
 }
 
 footer {
-    background-color: #3d8f69;
+    background-color: #0ca4c6;
     color: #fff;
     text-align: center;
     padding: 20px;
