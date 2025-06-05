@@ -35,7 +35,7 @@ header p {
 
 nav {
     background-color: #133b5c;
-    padding: 10px;
+    padding: 15px;
 }
 
 nav ul {
@@ -47,18 +47,29 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 25px;
 }
 
+/* Menu com fonte mais bonita e maior */
 nav ul li a {
     color: #e9e9e9;
     text-decoration: none;
-    font-weight: bold;
-    transition: color 0.3s ease;
+    font-family: 'Montserrat', 'Segoe UI', Tahoma, Geneva, sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    color: #1e90ff;
+    color: #ffffff;
+    background-color: rgba(30, 144, 255, 0.2);
+    box-shadow: 0 0 10px rgba(30, 144, 255, 0.3);
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.5);
+    transform: translateY(-2px);
 }
 
 main {
@@ -238,80 +249,4 @@ footer {
     .mission-card, .tech-card {
         padding: 15px;
     }
-}
-.mission-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.mission-video {
-    margin: 20px 0;
-}
-
-/* Estilos para a página de tecnologias */
-.tech-card {
-    background-color: #1c2e4a;
-    border-radius: 10px;
-    padding: 20px;
-    margin-bottom: 30px;
-}
-
-.tech-card h3 {
-    color: #1e90ff;
-    margin-top: 0;
-}
-
-.tech-image {
-    text-align: center;
-    margin: 20px 0;
-}
-
-.tech-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
-.external-links {
-    background-color: #133b5c;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 40px;
-}
-
-.external-links h3 {
-    margin-top: 0;
-}
-
-/* Estilos para o rodapé */
-footer {
-    background-color: #1c2e4a;
-    text-align: center;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-/* Estilos para links de download */
-.download-section {
-    background-color: #133b5c;
-    padding: 20px;
-    border-radius: 10px;
-    margin-top: 30px;
-    text-align: center;
-}
-
-.download-button {
-    display: inline-block;
-    background-color: #1e90ff;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
-.download-button:hover {
-    background-color: #0066cc;
 }
